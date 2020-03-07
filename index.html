@@ -12,12 +12,11 @@
     <script>
       // your code here
       document.addEventListener('keydown', function(e) {
-        // if (e.which === 37) {
-        //     moveDodgerLeft();
-        // } else if (e.which === 39) {
-        //     moveDodgerRight();
-        // }
-        console.log(e.which)
+        if (e.which === 37) {
+            moveDodgerLeft();
+        } else if (e.which === 39) {
+            moveDodgerRight();
+        }
       })
 
       var dodger = document.getElementById('dodger')
